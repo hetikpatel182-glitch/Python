@@ -1,11 +1,7 @@
-def number():
-    num=2
-    count=0
+l=[]
 
-    while count < 5:
-        yield num
-        num +=2
-        count +=1
+for i in range(1,101):
+    if i%5==0 and i%7==0:
+        l.append(i)
 
-for even in number():
-        print(even)
+print(l)

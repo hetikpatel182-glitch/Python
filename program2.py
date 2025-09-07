@@ -1,4 +1,4 @@
-A=int(input("Enter Value Of A: "))
-B=int(input("Enter Value Of B: "))
-C=A+B
-print("ADDITION Of Two Number : ",C)
+l=[1,2,1.1,2.2,"PYTHON",True,(1,2,3)]
+
+print(len(l))
+print(l)
